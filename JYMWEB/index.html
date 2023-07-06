@@ -1,0 +1,170 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*CSS reset*/
+        body{
+            font-family: 'Baloo Bhai',cursive;
+            color: white;
+            margin: 4px;
+            padding: 0px;
+            background: url('WEBIMG/man.jpg');
+         }
+         .left{
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            display: inline-block;
+           /* border: 2px solid red;*/
+            font-size: 20px;
+
+         }
+         .left img{
+            width: 130px;
+            filter: invert(100%);
+
+         }
+         .left div{
+            text-align: center;
+         }
+         .middle{
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+           /* border: 2px solid gray;*/
+
+         }
+         .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid cadetblue;
+
+         }
+         .navbar{
+            display: inline-block;
+         }
+        .navbar li{
+            display: inline-block;
+            color: white;
+            font-size: 19px;
+         }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 18px;
+         }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: blue;
+         }
+        .btn{
+            margin: 4px 4px;
+           /* border: 2px solid gray;*/
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai',cursive;
+
+            
+         }
+        .btn:hover{
+            background-color: rgb(144, 144, 249);;
+
+         }
+        .container{
+       /* border: 2px solid gray;*/
+        margin: 106px 80px;
+        width: 33%;
+        padding: 75px;
+        border-radius: 28px;
+         }
+        .formgroup input{
+        text-align: center;
+        display: block;
+        width: 448px;
+        padding:1px ;
+        font-size: 21px;
+        padding: 1px;
+        border-radius: 8px;
+        font-family: 'Baloo Bhai',cursive;
+        margin: 11px;
+         }
+         .formgroup input:hover{
+            background-color: rgb(234, 234, 239);
+         }
+        .container h1{
+            text-align: center;
+
+         }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+         }
+
+
+    </style>
+</head>
+<body class="header">
+        <!--Left for logo-->
+        <div class="left">
+            <img src="WEBIMG/doumble.png" alt="">
+            <div>PM Fitness</div>
+            
+        </div>
+
+
+        <!--Mid Box for navbar-->
+        <div class="middle">
+            <ul
+            class ="navbar">
+            <li><a href="" class="Active">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Fintess Calculator</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+        </div>
+
+
+        <!--Right for Button-->
+        <div class="right">
+            
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h1> Join the best gym in lucknow</h1>
+        <form action="action.php">
+            <div class="formgroup"> 
+            <input type="text" name="" placeholder="Enter your Name">
+            </div>         
+            <div class="formgroup"> 
+            <input type="text" name="" placeholder="Enter your Age">
+            </div>         
+            <div class="formgroup"> 
+            <input type="text" name="" placeholder="Enter your Gender">
+            </div>         
+            <div class="formgroup"> 
+            <input type="text" name="" placeholder="Enter your Locality">
+            </div>         
+            <div class="formgroup"> 
+            <input type="text" name="" placeholder="Enter your Phone Nu">
+            </div>         
+            <div class="formgroup"> 
+            <input type="text" name="" placeholder="Enter your Email id">
+            </div>         
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html><
